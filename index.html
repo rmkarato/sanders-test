@@ -45,6 +45,7 @@
       }
 
       .card {
+        position: relative;
         border: 1px solid #E2E2E2;
         transition: 0.3s;
         width: 16%;
@@ -55,6 +56,13 @@
       .card:hover {
         box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
       }
+
+      .favorite-area {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+      }
       
       .container {
         display: flex;
@@ -63,12 +71,58 @@
         justify-content: center;
       }
 
+      .flags {
+        display: flex;
+
+        font-style: normal;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 17px;
+      }
+
+      .discount {
+        border: 1.5px solid #DA9D00;
+        margin-right: 12px;
+        padding: 0 10px;
+
+        color: #DA9D00;
+      }
+
+      .free-shipping {
+        border: 1.5px solid #5F5F5F;
+        padding: 0 8px;
+
+        color: #5F5F5F;
+      }
+
+      .rating-stars {
+        display: flex;
+      }
+
+      .rating-stars img {
+        margin-right: 4px;
+      }
+
       .price {
         font-style: normal;
         font-size: 14px;
         font-weight: normal;
         line-height: 17px;
         color: #A4A4A4;
+      }
+
+      .price b {
+        font-style: normal;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 19.5px;
+        color: #5F5F5F;
+      }
+
+      .installments {
+        font-size: 14px;
+        line-height: 17px;
+        color: #5F5F5F;
       }
 
       button {
@@ -113,41 +167,93 @@
 
     <div class="wrapper">
       <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="favorite-area">
+          <img src="assets/heart-icon.png" alt="FavoriteIcon" width=25 height=20.7>
+        </div>
         <div class="container">
+          <div class="flags">
+            <p class="discount">10% off</p>
+            <p class="free-shipping">Frete Grátis</p>
+          </div>
+          <div class="rating-stars">
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-icon.png" alt="RatingIcon" width=13 height=13>
+          </div>
           <h4>Spot para lâmpada LED MR16 (com grade antiofuscante)</h4> 
           <p class="price"><s>R$ 99,90</s> | <b>R$ 89,90</b></p>
-          <p>ou em <b>10x</b> de <b>R$ 8,90</b></p>
+          <p class="installments">ou em <b>10x</b> de <b>R$ 8,90</b></p>
           <button>Adicionar ao carrinho →</button> 
         </div>
       </div>
 
       <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="favorite-area">
+          <img src="assets/heart-icon.png" alt="FavoriteIcon" width=25 height=20.7>
+        </div>
         <div class="container">
+          <div class="flags">
+            <p class="discount">10% off</p>
+            <p class="free-shipping">Frete Grátis</p>
+          </div>
+          <div class="rating-stars">
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-icon.png" alt="RatingIcon" width=13 height=13>
+          </div>
           <h4>Spot para lâmpada LED MR16 (com grade antiofuscante)</h4> 
           <p class="price"><s>R$ 99,90</s> | <b>R$ 89,90</b></p>
-          <p>ou em <b>10x</b> de <b>R$ 8,90</b></p>
+          <p class="installments">ou em <b>10x</b> de <b>R$ 8,90</b></p>
           <button>Adicionar ao carrinho →</button> 
         </div>
       </div>
 
       <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="favorite-area">
+          <img src="assets/heart-icon.png" alt="FavoriteIcon" width=25 height=20.7>
+        </div>
         <div class="container">
+          <div class="flags">
+            <p class="discount">10% off</p>
+            <p class="free-shipping">Frete Grátis</p>
+          </div>
+          <div class="rating-stars">
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-icon.png" alt="RatingIcon" width=13 height=13>
+          </div>
           <h4>Spot para lâmpada LED MR16 (com grade antiofuscante)</h4> 
           <p class="price"><s>R$ 99,90</s> | <b>R$ 89,90</b></p>
-          <p>ou em <b>10x</b> de <b>R$ 8,90</b></p>
+          <p class="installments">ou em <b>10x</b> de <b>R$ 8,90</b></p>
           <button>Adicionar ao carrinho →</button> 
         </div>
       </div>
 
       <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="favorite-area">
+          <img src="assets/heart-icon.png" alt="FavoriteIcon" width=25 height=20.7>
+        </div>
         <div class="container">
+          <div class="flags">
+            <p class="discount">10% off</p>
+            <p class="free-shipping">Frete Grátis</p>
+          </div>
+          <div class="rating-stars">
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-yellow-icon.png" alt="RatingIcon" width=13 height=13>
+            <img src="assets/star-icon.png" alt="RatingIcon" width=13 height=13>
+          </div>
           <h4>Spot para lâmpada LED MR16 (com grade antiofuscante)</h4> 
           <p class="price"><s>R$ 99,90</s> | <b>R$ 89,90</b></p>
-          <p>ou em <b>10x</b> de <b>R$ 8,90</b></p> 
+          <p class="installments">ou em <b>10x</b> de <b>R$ 8,90</b></p> 
           <button>Adicionar ao carrinho →</button>
         </div>
       </div>
