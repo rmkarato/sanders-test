@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "imagem":"https://via.placeholder.com/175/e3e3e3/333333?text=Produto_01",
+      "flags":[
+        true,
+        "10% OFF",
+        "Frete Grátis"
+      ],
+      "review":"5",
+      "name":"Lampada 01",
+      "price":{
+        "price":"99,90",
+        "price_discount":"89,90"
+      },
+      "product_link":"www.teste.com.br/produto_1"
+    },
+    {
+      "imagem":"https://via.placeholder.com/175/e3e3e3/333333?text=Produto_02",
+      "flags":[
+        false
+      ],
+      "review":"4",
+      "name":"Lampada 02",
+      "price":{
+        "price":"109,90",
+        "price_discount":"99,90"
+      },
+      "product_link":"www.teste.com.br/produto_2"
+    },
+    {
+      "imagem":"https://via.placeholder.com/175/e3e3e3/333333?text=Produto_03",
+      "flags":[
+        true,
+        "15% OFF",
+        "Frete Grátis"
+      ],
+      "review":"5",
+      "name":"Lampada 03",
+      "price":{
+        "price":"99,90",
+        "price_discount":"89,90"
+      },
+      "product_link":"www.teste.com.br/produto_3"
+    },
+    {
+      "imagem":"https://via.placeholder.com/175/e3e3e3/333333?text=Produto_04",
+      "flags":[
+        true,
+        "Frete Grátis"
+      ],
+      "review":"3",
+      "name":"Lampada 04",
+      "price":{
+        "price":"69,90"
+      },
+      "product_link":"www.teste.com.br/produto_4"
+    },
+    {
+      "imagem":"https://via.placeholder.com/175/e3e3e3/333333?text=Produto_05",
+      "flags":[
+        false
+      ],
+      "review":"5",
+      "name":"Lampada 05",
+      "price":{
+        "price":"29,90"
+      },
+      "product_link":"www.teste.com.br/produto_5"
+    }
+  ]
+}
