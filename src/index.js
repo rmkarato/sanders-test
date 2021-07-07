@@ -24,10 +24,12 @@ function showProducts (jsonObj) {
 
     const favoriteArea = document.createElement('div');
     favoriteArea.classList.add('favorite-area');
-
+    
     const favoriteImg = document.createElement('img');
-    favoriteImg.src = "assets/heart-icon.png"
-    favoriteImg.alt = "FavoriteIcon"
+    favoriteImg.setAttribute('id', 'favorite-img');
+    favoriteImg.src = "assets/heart-icon.png";
+    favoriteImg.alt = "FavoriteIcon";
+    favoriteImg.title = "Curtir"
 
     const container = document.createElement('div');
     container.classList.add('container');
@@ -180,8 +182,8 @@ function showProducts (jsonObj) {
     cards.appendChild(myCard);
 
     myCard.appendChild(productLink);
+    myCard.appendChild(favoriteArea);
 
-    productLink.appendChild(favoriteArea);
     favoriteArea.appendChild(favoriteImg);
     productLink.appendChild(container);
     
@@ -202,3 +204,48 @@ function showProducts (jsonObj) {
     container.appendChild(buttonAddToCart);
   }
 }
+
+// const slides = document.querySelectorAll(".card");
+// const button = document.querySelectorAll("#button");
+
+// function setaImagem() {
+//   window.addEventListener("load",setaImagem,false);
+// }
+
+// const settings = {
+//   activeCards: function(){
+//     const element1 = document.querySelector(".cards .card:first-of-type");
+//     const element2 = document.querySelector("card:nth-child(2)");
+//     const element3 = document.querySelector("card:nth-child(3)");
+//     const element4 = document.querySelector("card:nth-child(4)");
+//     element1.classList.add("active");
+//     element2.classList.add("active");
+//     element3.classList.add("active");
+//     element4.classList.add("active");
+//   }
+// }
+
+// settings.activeCards();
+
+// function slide() {
+//   element = document.querySelector(".active");
+//   if (element.nextElementSibling){
+//       element.nextElementSibling.classList.add("active");
+//       element.classList.remove("active");
+//   }else{
+//       element.classList.remove("active");
+//       settings.activeCards();
+//   }
+// }
+
+// function next() {
+//   element = document.querySelector(".active");
+
+//   if(element.nextElementSibling) {
+//     element.nextElementSibling.classList.add("active");
+//     element.classList.remove("active");
+//   } else {
+//     element.classList.remove("active");
+//     settings.activeCards();
+//   }
+// }
