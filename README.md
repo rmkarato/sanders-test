@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# Sanders - Vitrine Brilia
 
-You can use the [editor on GitHub](https://github.com/rmkarato/sanders-test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Teste Proposto
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Criar uma vitrine de produtos destacados de acordo com o protótipo enviado
 
-### Markdown
+[Protótipo](https://www.figma.com/file/9qC8KZW0W1qhNsPCgVFvut/Teste-vitrine-brilia?node-id=0%3A1)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Estrutura do Site Em HTML
 
-```markdown
-Syntax highlighted code block
+[Ver Código Em HTML Aqui](https://github.com/rmkarato/sanders-test/blob/main/src/index.html)
 
-# Header 1
-## Header 2
-### Header 3
+## Estilização do Site Em CSS
 
-- Bulleted
-- List
+[Ver Estilização Aqui](https://github.com/rmkarato/sanders-test/blob/main/src/index.css)
 
-1. Numbered
-2. List
+## Script - Javascript
 
-**Bold** and _Italic_ and `Code` text
+[Ver Código Em JS Aqui](https://github.com/rmkarato/sanders-test/blob/main/src/index.js)
 
-[Link](url) and ![Image](src)
-```
+## Tasklist
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [x] Criar cards para receber JSON de produtos;
+- [x] Código de estilização em CSS de acordo com protótipo enviado;
+- [x] Adicionar botão de "curtir" no card de produtos;
+- [x] Flags dinâmicos - aparecem as flags de "desconto" e "frete grátis" somente se a flag constar como "true";
+- [x] Estrelas de avaliação aparecendo conforme JSON; 
+- [x] Valor do produto aparecendo de acordo com JSON - se estiver em promoção, preço antigo aparece tachado e preço  atual em negrito;
+- [x] Valor parcelado aparece de acordo com fórmula em JS - os valores foram transformados de string para number com "parseFloat" e depois com "toLocaleString" foram transformados na moeda brasileira;  
+- [x] Botão "Adicionar ao carrinho" aparecendo somente no hover;
+- [x] Destaque no hover do card que estiver sendo clicado; 
+- [x] Botão "next" e "previous" para criar carrosel de cards (implantado, porém comentado no código);
+- [ ] Criar carrosel de cards, para que deslizem conforme clicado nos botões "next" e "previous";
 
-### Jekyll Themes
+## Resultado
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rmkarato/sanders-test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Resolução 1920
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1920.png?w=512)
+(4 cards por linha)
 
-### Support or Contact
+### Resolução 1280
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1280.png?w=512)
+(4 cards por linha)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Resolução 1024
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1024.png?w=512)
+(4 cards por linha)
+
+### Resolução 768
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/768.png?w=512)
+(2 cards por linha)
+
+### Resolução 320
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/320.png?w=512)
+(1 card por linha)
+
+## Contato
+
+Renata Mitsue Karato
+
+11 9 9763-7438
+
+[Github](https://github.com/rmkarato) | [Linkedin](https://www.linkedin.com/in/rmkarato/)
