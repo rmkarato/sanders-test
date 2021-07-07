@@ -37,23 +37,23 @@ Criar uma vitrine de "produtos em destaque" de acordo com o protótipo enviado.
 ## Resultado com responsividade
 
 ### Resolução 1920
-![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1920.png?h=512)
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1920.png?w=512)
 (4 cards por linha)
 
 ### Resolução 1280
-![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1280.png?h=512)
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1280.png?w=512)
 (4 cards por linha)
 
 ### Resolução 1024
-![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1024.png?h=512)
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1024.png?w=512)
 (4 cards por linha)
 
 ### Resolução 768
-![](https://github.com/rmkarato/sanders-test/blob/main/imgs/768.png?h=512)
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/768.png?w=512)
 (2 cards por linha)
 
 ### Resolução 320
-![](https://github.com/rmkarato/sanders-test/blob/main/imgs/320.png?h=512)
+![](https://github.com/rmkarato/sanders-test/blob/main/imgs/320.png?w=512)
 (1 card por linha)
 
 ## Contato
