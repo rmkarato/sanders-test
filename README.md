@@ -2,9 +2,11 @@
 
 ### Teste Proposto
 
-Criar uma vitrine de produtos destacados de acordo com o protótipo enviado
+Criar uma vitrine de "produtos em destaque" de acordo com o protótipo enviado
 
 [Protótipo](https://www.figma.com/file/9qC8KZW0W1qhNsPCgVFvut/Teste-vitrine-brilia?node-id=0%3A1)
+
+[JSON](https://rafaeljk.com.br/testes/dev/json_product.json)
 
 ## Estrutura do Site Em HTML
 
@@ -32,7 +34,7 @@ Criar uma vitrine de produtos destacados de acordo com o protótipo enviado
 - [x] Botão "next" e "previous" para criar carrosel de cards (implantado, porém comentado no código);
 - [ ] Criar carrosel de cards, para que deslizem conforme clicado nos botões "next" e "previous";
 
-## Resultado
+## Resultado com responsividade
 
 ### Resolução 1920
 ![](https://github.com/rmkarato/sanders-test/blob/main/imgs/1920.png?w=512)
