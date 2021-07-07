@@ -34,6 +34,9 @@ Criar uma vitrine de "produtos em destaque" de acordo com o protótipo enviado.
 - [x] Botão "next" e "previous" para criar carrosel de cards (implantado, porém comentado no código);
 - [ ] Criar carrosel de cards, para que deslizem conforme clicado nos botões "next" e "previous";
 
+## Resultado
+[Ver o teste AQUI](https://rmkarato.github.io/sanders-test/)
+
 ## Resultado com responsividade
 
 ### Resolução 1920
