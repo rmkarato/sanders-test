@@ -22,6 +22,13 @@ function showProducts (jsonObj) {
     const productLink = document.createElement('a');
     productLink.href = `https://${allProducts[i].product_link}`;
 
+    const favoriteArea = document.createElement('div');
+    favoriteArea.classList.add('favorite-area');
+
+    const favoriteImg = document.createElement('img');
+    favoriteImg.src = "assets/heart-icon.png"
+    favoriteImg.alt = "FavoriteIcon"
+
     const container = document.createElement('div');
     container.classList.add('container');
 
@@ -39,7 +46,7 @@ function showProducts (jsonObj) {
     allFlags.classList.add('flags');
     
     validateFlags = () => {
-      if (flags[0] === true) {
+      if (flags[0] === true && flags[1] && flags[2]) {
         const discount = document.createElement('p');
         discount.classList.add('discount');
         discount.textContent = flags[1];
@@ -49,8 +56,22 @@ function showProducts (jsonObj) {
         freeShipping.classList.add('free-shipping');
         freeShipping.textContent = flags[2];
         allFlags.appendChild(freeShipping);
+      } else if (flags[0] === true && flags[2] == undefined) {
+        const discount = document.createElement('p');
+        discount.classList.add('discount');
+        discount.textContent = flags[1];
+        discount.style.border = 'transparent';
+        discount.style.color = 'transparent';
+        allFlags.appendChild(discount);
+
+        const freeShipping = document.createElement('p');
+        freeShipping.classList.add('free-shipping');
+        freeShipping.textContent = flags[1];
+        freeShipping.style.width = '90%';
+        allFlags.style.flexDirection = 'row-reverse';        
+        allFlags.appendChild(freeShipping);
       } else {
-        allFlags.style.display = 'none';
+        allFlags.style.border = 'transparent';
       }
     }
 
@@ -156,12 +177,14 @@ function showProducts (jsonObj) {
     const buttonAddToCart = document.createElement('button');
     buttonAddToCart.textContent = "Adicionar ao carrinho →";
     
-    wrapper.appendChild(myCard);
+    cards.appendChild(myCard);
 
     myCard.appendChild(productLink);
 
+    productLink.appendChild(favoriteArea);
+    favoriteArea.appendChild(favoriteImg);
     productLink.appendChild(container);
-
+    
     container.appendChild(productImage);
     productImage.appendChild(image);
 

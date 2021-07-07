@@ -13,48 +13,24 @@
     <h2>DESTAQUES</h2>
 
     <div class="wrapper">
-      <div class="arrow-left-wrapper">
+      <div id="one" class="arrow-left-wrapper">
         <img src="assets/left-arrow.png" alt="LeftArrow" width=15 height=15>
       </div>
-      <div class="arrow-right-wrapper">
+      <div id="two" class="arrow-right-wrapper">
         <img src="assets/right-arrow.png" alt="RightArrow" width=15 height=15>
       </div>
-      
-      <!-- <div class="card">
-        <a id="product-link" href="">
-          <div class="favorite-area">
-            <img src="assets/heart-icon.png" alt="FavoriteIcon" width=25 height=20.7>
+      <div class="main-card">
+        <div class="cards">
+          <div class="content">
           </div>
-          <div class="container">
-            <div class="product-image">
-              <img id="product-img" src="" alt="" width=200 height=200>
-            </div>
-            <div class="flags">
-              <p class="discount"></p>
-              <p class="free-shipping"></p>
-            </div>
-            <div class="rating-stars">
-              <img id="img-1" src="" alt="RatingIcon" width=13 height=13>
-              <img id="img-2" src="" alt="RatingIcon" width=13 height=13>
-              <img id="img-3" src="" alt="RatingIcon" width=13 height=13>
-              <img id="img-4" src="" alt="RatingIcon" width=13 height=13>
-              <img id="img-5" src="" alt="RatingIcon" width=13 height=13>
-            </div>
-            <h4 id="product-name"></h4> 
-            <p class="price">
-              <s id="price"></s>
-              <b id="price-discount"></b>
-            </p>
-            <p class="installments">
-              ou em <b>10x</b> de <b id="price-installment"></b>
-            </p>
-            <button>Adicionar ao carrinho →</button> 
-          </div>
-        </a>
-      </div> -->
+        </div>
+      </div>
     </div>
     <script>
       const wrapper = document.querySelector(".wrapper");
+      const mainCard = document.querySelector(".main-card");
+      const cards = document.querySelector(".cards");
+      const content = document.querySelector(".content");
     </script>
   </body>
 </html>
