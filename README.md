@@ -2,7 +2,7 @@
 
 ### Teste Proposto
 
-Criar uma vitrine de "produtos em destaque" de acordo com o protótipo enviado
+Criar uma vitrine de "produtos em destaque" de acordo com o protótipo enviado.
 
 [Protótipo](https://www.figma.com/file/9qC8KZW0W1qhNsPCgVFvut/Teste-vitrine-brilia?node-id=0%3A1)
 
